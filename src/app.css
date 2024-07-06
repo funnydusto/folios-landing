@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    @apply bg-slate-200;
+    @apply bg-gray-300;
 }
 
 ::-webkit-scrollbar {
