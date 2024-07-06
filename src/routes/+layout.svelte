@@ -3,6 +3,6 @@
     import Navbar from "$components/Navbar.svelte";
 </script>
 
-<div class="mx-auto max-w-screen-desktop p-2 bg-gray-300">
+<div class="flex flex-col gap-2 p-2 mx-auto bg-gray-300 h-dvh">
     <slot />
 </div>
