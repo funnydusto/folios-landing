@@ -1,4 +1,5 @@
 import userProfileFields from '$lib/stores/userProfileFields.js';
+import { error } from '@sveltejs/kit';
 
 export async function load({ locals, params }) {
     try {
@@ -12,6 +13,7 @@ export async function load({ locals, params }) {
         }        
     } catch (error) {
         console.log(error);
+        error(404, 'Not found');
     }
 }
 
