@@ -32,12 +32,31 @@
 
 
 </script>
+<svelte:head>
+    		<!-- General -->
+		<title>folios.cc</title>
+		<meta name="description" content=""/>
+
+		<meta property="og:url" content="folios.cc">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="folios.cc">
+        <meta property="og:description" content="Find and explore builders for your community.">
+        <meta property="og:image" content="/og_cover.webp">
+
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:domain" content="folios.cc">
+		<meta property="twitter:url" content="folios.cc">
+		<meta name="twitter:title" content="folios.cc">
+		<meta name="twitter:description" content="">
+		<meta name="twitter:image" content="/og_cover.webp">
+</svelte:head>
 
 <!-- Navbar -->
 <MarketingNavbar/>
 
 <!-- Hero -->
-<div class="flex flex-col items-center h-full gap-4 px-6 py-24 text-center md:justify-center md:text-left bg-[url('landing_bg_mobile.png')] bg-bottom md:bg-[url('landing_bg_desktop.png')] md:bg-right md:items-start bg-cover border-2 md:px-6 lg:px-24 md:py-6 border-gray-200 shadow rounded-xl">
+<div class="flex flex-col items-center h-full gap-4 px-6 py-24 text-center md:justify-center md:text-left bg-[url('/landing_bg_mobile.webp')] bg-bottom md:bg-[url('/landing_bg_desktop.webp')] md:bg-right md:items-start bg-cover border-2 md:px-6 lg:px-24 md:py-6 border-gray-200 shadow rounded-xl">
     
     <!-- Heading -->
     <h1 class="text-4xl font-extrabold max-w-[384px]  font-display text-gray-1400">Find your next<br>
